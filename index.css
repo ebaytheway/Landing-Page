@@ -3,6 +3,8 @@
 }
 
 body{
+    margin: 0px;
+    padding: 0px;
 }
 
 .header{
@@ -19,7 +21,10 @@ body{
 /*nav elements*/
 .nav{
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 162, 255, 0.369);
     justify-content: space-around;
 }
 
@@ -51,14 +56,20 @@ body{
 }
 
 /* main elements*/
-.main{ 
+.main{
     display: flex;
+    flex-direction:column;
     position: absolute;
     left: 0px;
-    flex-direction: row;
     width: 100%;
-    height: 700px;
+  
+}
+.awsome-website{
+    position: relative;
     background-color: rgb(176, 224, 230);
+    height: 650px;
+    left:0px;
+    width:100%;
 }
 .main-description{
     position: relative;
@@ -93,11 +104,51 @@ body{
     top:175px;
     background-color:rgb(128, 203, 213);
     width:500px;
+    border-radius: 10px;
 }
 .img{
-    position: absolute;
+    position: relative;
     width:400px;
     height: 200px;
     left: 50px;
+    background-color: black;
+}
+/* box field*/
+.sector2{
+    background-color: rgba(108, 186, 193, 0.642);
+    height: 500px;
+}
+.info{
+    font-size: 35px;
+    text-align: center;
+}
+.box-field{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.box-holder{
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    margin-right:30px;
+}
+.box{
+    background-color: rgb(214, 212, 212);
+    border: 3px rgb(56, 76, 233) solid;
+    width: 175px;
+    height: 175px;
+    border-radius:10px;
 }
 
+.box-info{
+    position: relative;
+    left: 10px;
+    font-size:25px;
+    font-style:bold;
+    text-align: center;
+}
+
+   
