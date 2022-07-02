@@ -74,7 +74,17 @@ body{
 .description{
     font-size:25px
 }
-.main-logo{
+.btn{
+    color: white;
+    height: 30px;
+    position: relative;
+    left: 10px;
+    width: 100px;
+    background-color: rgb(6, 136, 229);
+    font-size: 15px;
+    border-radius: 5px;
+}
+.main-img{
     position:absolute;
     display: flex;
     align-items: center;
@@ -84,7 +94,7 @@ body{
     background-color:rgb(128, 203, 213);
     width:500px;
 }
-.logo{
+.img{
     position: absolute;
     width:400px;
     height: 200px;
