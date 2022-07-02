@@ -27,10 +27,10 @@ body{
     position:relative;
     top:0px;
     font-size: 25px;
-    background-color: red;
     height: 100px;
-    left: 100px;
+    left: 150px;
 }
+
 
 .header-link{
     position: relative;
@@ -38,6 +38,10 @@ body{
     padding: 10px;
     top:33%;
 
+}
+.header-link:hover{
+    background-color:rgb(176, 224, 230) ;
+    transition:0.2s ease-out;
 }
 
 .nav-logo{
